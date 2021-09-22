@@ -1,16 +1,17 @@
 // Only change code below this line
 var myClothes = {
-    hat: "Red",
-    shirt: "Blue",
-    shoes: "Addidas"
+    hat: "Fedora",
+    shirt: "Nike",
+    shoes: "Converse"
 };
 
 function myFunction(myObj){
-    var hatValue = myObje.hat;
+    var hatValue = myObj.hat;
     var shirtValue = myObj.shirt;
     var shoesValue = myObj.shoes;
+    return { hatValue, shirtValue, shoesValue};
 }
 // Oncly change code above this line
 
-console.log(myFunction(myObj));
+console.log(myFunction(myClothes));
 module.exports = myFunction(myClothes);

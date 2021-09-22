@@ -1,17 +1,15 @@
 // Only change code below this line
-var myDog = {
+var myPet = {
     species: "Pit Bull",
     name: "Roky",
-    legs: 4;
+    legs: 4,
+    friends: [ "Micky", "John" ]
 };
-
-var friends = {bestFriend1: "Micky", bestFriend2: "John"};
 
 function myFunction(myObj){
     return myObj;
 }
-
 // Oncly change code above this line
 
-console.log(myFunction());
-module.exports = { myPet, myFunction};
+console.log(myFunction(myPet));
+module.exports = { myPet, myFunction };
